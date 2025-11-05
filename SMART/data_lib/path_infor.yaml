@@ -1,0 +1,372 @@
+######################################       Binary CSV        ########################################################
+
+xiehe_Bin_4_split_train_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/train1.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Bin_4_split_val_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/val1.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+######################################################
+
+
+xiehe_Bin_4_split_train_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/train2.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Bin_4_split_val_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/val2.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+################################################################
+
+
+xiehe_Bin_4_split_train_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/train3.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+xiehe_Bin_4_split_val_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/val3.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+##################################################################################
+
+xiehe_Bin_4_split_train_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/train4.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Bin_4_split_val_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/val4.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+#########################################################################################
+
+xiehe_Bin_4_split_train_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/train5.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Bin_4_split_val_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/val5.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+######################################################
+
+xiehe_Bin_4_split_test:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/TestSet.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+#######################################################
+
+xiehe_Bin_4_split_EXtest:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/EXSet.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+
+
+#############################################################   Multi3 CSV          ####################################################################
+
+xiehe_Multi_4_split_train_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/train1.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Multi_4_split_val_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/val1.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+######################################################
+
+
+xiehe_Multi_4_split_train_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/train2.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Multi_4_split_val_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/val2.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+################################################################
+
+
+xiehe_Multi_4_split_train_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/train3.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+xiehe_Multi_4_split_val_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/val3.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+##################################################################################
+
+xiehe_Multi_4_split_train_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/train4.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Multi_4_split_val_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/val4.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+#########################################################################################
+
+xiehe_Multi_4_split_train_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/train5.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+xiehe_Multi_4_split_val_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/val5.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+######################################################
+
+xiehe_Multi_4_split_test:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/TestSet.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+#######################################################
+
+xiehe_Multi_4_split_EXtest:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/EXSet.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+try:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/try.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/all_UWF_image/
+  img_path_col: base_name
+
+
+######################################       Center Binary CSV         ########################################################
+
+
+
+xiehe_Center_Bin_4_split_train_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/train1.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Bin_4_split_val_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/val1.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+######################################################
+
+
+xiehe_Center_Bin_4_split_train_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/train2.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Bin_4_split_val_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/val2.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+
+################################################################
+
+
+xiehe_Center_Bin_4_split_train_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/train3.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+
+xiehe_Center_Bin_4_split_val_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/val3.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+##################################################################################
+
+xiehe_Center_Bin_4_split_train_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/train4.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Bin_4_split_val_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/val4.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+#########################################################################################
+
+xiehe_Center_Bin_4_split_train_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/train5.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Bin_4_split_val_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/val5.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+######################################################
+
+xiehe_Center_Bin_4_split_test:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/TestSet.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+#######################################################
+
+xiehe_Center_Bin_4_split_EXtest:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/EXSet.csv"
+  anemia_cls: anemia_cls
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+
+
+######################################       Center Multi CSV         ########################################################
+
+
+
+xiehe_Center_Multi_train_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/train1.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Multi_val_fold_1:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_1/val1.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+######################################################
+
+
+xiehe_Center_Multi_train_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/train2.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Multi_val_fold_2:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_2/val2.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+
+################################################################
+
+
+xiehe_Center_Multi_train_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/train3.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+
+xiehe_Center_Multi_val_fold_3:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_3/val3.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+##################################################################################
+
+xiehe_Center_Multi_train_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/train4.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Multi_val_fold_4:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_4/val4.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+#########################################################################################
+
+xiehe_Center_Multi_train_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/train5.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+xiehe_Center_Multi_val_fold_5:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/fold_5/val5.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+######################################################
+
+xiehe_Center_Multi_test:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/TestSet.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name
+
+#######################################################
+
+xiehe_Center_Multi_EXtest:
+  csv_path: "/home/jingqi/UWF_Re_Build_Data_Split/6.New_PreTrain_Dataset/Final_Split/EXSet.csv"
+  anemia_cls: anemis_multi3_bin
+  img_dir: /mnt/nas_ssd_data/jingqi/blade4/all_center_image/
+  img_path_col: base_name

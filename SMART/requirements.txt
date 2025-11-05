@@ -1,0 +1,27 @@
+pandas
+seaborn
+torchcam==0.2.0
+tabulate
+glob2
+tensorboardX
+torch-optimizer
+scikit-learn 
+timm
+python-docx
+ 
+torchmetrics==0.4.0
+albumentations==0.4.6
+GPy==1.9.9
+hyperopt==0.2.4
+pytorch-lightning==1.1.1
+ray==1.2.0
+hydra-core==1.1.0
+
+#Please manually install the following 
+#   pytorch==1.7
+#   conda install pytorch==1.7 torchvision==0.8.1 cudatoolkit=10.2 -c pytorch
+
+#The following is optional
+
+#   If you want to pip install the latest timm from GitHub, use:
+#   pip install git+https://github.com/rwightman/pytorch-image-models.git

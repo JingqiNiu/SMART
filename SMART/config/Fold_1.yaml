@@ -1,0 +1,75 @@
+add_info: false
+cam_layer: backbone._conv_head
+cam_name: gradcam
+commit: null
+data:
+  batch_size: 16
+  data_replacement: false
+  more_col: []
+  num_samples: 1500
+  num_workers: 5
+  pad_square: true
+  preprocessing: false
+  sample_distribution: 0.83086
+dataset_define: null
+earlystop_patience: 30
+eval_training_set: true
+extra_data_name: xiehe_Bin_4_split_EXtest
+extra_label_name: bin_anemia_cls
+label_name: &id001
+- bin_anemia_cls
+loss:
+  loss_name: ce_loss
+  loss_weight: null
+lr: 0.00033533
+model:
+  key_checkpoint: state_dict
+  model_name: efficientnet-b1
+  num_classes: 2
+optimizer:
+  optim_name: adam
+  weight_decay: 0.0001
+post_process:
+  channels:
+  - 2
+  label_name: *id001
+  metric_define: ["default_bin"] # key of DEFINE_SCORE, how to compute "final_score"
+  task_type: ['bin_all_metric']
+resume: null
+root_folder: /mnt/nas_ssd_data/jingqi/New_Tune_UWF_XieHe/
+save_code:
+- '*'
+save_top_k_checkpoint: 10
+scheduler:
+  plateau_cfg:
+    cooldown: 1
+    factor: 0.5
+    patience: 5
+  scheduler_cfg:
+    gamma: 0.5
+    step_size: 10
+  scheduler_name: lr_plateau
+sub_folder: Fold1
+test_data_name: xiehe_Bin_4_split_test
+train_data_name: xiehe_Bin_4_split_train_fold_1
+trainer:
+  accelerator: dp
+  accumulate_grad_batches: 1
+  amp_level: O2
+  benchmark: true
+  flush_logs_every_n_steps: 100
+  gpus: 1
+  log_every_n_steps: 10
+  max_epochs: 100
+  min_epochs: 25
+  num_sanity_val_steps: 0
+  precision: 32
+  progress_bar_refresh_rate: 10
+  replace_sampler_ddp: false
+  val_check_interval: 0.5
+transform:
+  aug_m: 2.6540921317967534
+  aug_prob: 0.7813878580846485
+  target_size: 512
+  transform_define: resize_crop
+val_data_name: xiehe_Bin_4_split_val_fold_1

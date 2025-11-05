@@ -1,0 +1,66 @@
+########################################################
+# mainly use DR open  training set
+b0_dr:
+  model_name: efficientnet-b0
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b0_dr.ckpt
+  r: 600
+b1_dr:
+  model_name: efficientnet-b1
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b1_dr.ckpt
+  r: 600
+b2_dr:
+  model_name: efficientnet-b2
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b2_dr.ckpt
+  r: 600
+b3_dr:
+  model_name: efficientnet-b3
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b3_dr.ckpt
+  r: 600
+b4_dr:
+  model_name: efficientnet-b4
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b4_dr.ckpt
+  r: 600
+b5_dr:
+  model_name: efficientnet-b5
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b5_dr.ckpt
+  r: 600
+b6_dr:
+  model_name: efficientnet-b6
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b6_dr.ckpt
+  r: 600
+b7_dr:
+  model_name: efficientnet-b7
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b7_dr.ckpt
+  r: 600
+v2_m_dr:
+  model_name: efficientnetv2_rw_m
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/v2_m_dr.ckpt
+  r: 600
+v2_s_dr:
+  model_name: efficientnetv2_rw_s
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/v2_s_dr.ckpt
+  r: 600
+swin_b_dr:
+  model_name: swin_base_patch4_window12_384
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/swin_b_dr.ckpt
+  r: 384 # Must be 384
+#########################################################################
+#  mainly use DR eyepacs data set
+b0_eyepacs:
+  model_name: efficientnet-b0
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b0_eyepacs_dr.pth
+  r: 600
+b3_eyepacs:
+  model_name: efficientnet-b3
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b3_eyepacs_dr.pth
+  r: 600
+b5_eyepacs:
+  model_name: efficientnet-b5
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b5_eyepacs_dr_r448.pth
+  r: 448
+#########################################################################
+b7_dr_chv1:
+  model_name: efficientnet-b7
+  path: /mnt/nas_ssd_data/ywchen/release/pretrained_ck/b7_dr_chv1-0-0.ckpt
+  r: 600
+  descrebe: differential diagnostic model of dr_chv1-0-0
